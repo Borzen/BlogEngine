@@ -10,4 +10,4 @@ services:
     image: postgres
     restart: always
     environment:
-      POSTGRES_PASSWORD: Today123
+      POSTGRES_PASSWORD: Today1234
