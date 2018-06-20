@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  blogengine:
+    image: ${DOCKER_REGISTRY}blogengine
+    build:
+      context: .
+      dockerfile: BlogEngine/Dockerfile
