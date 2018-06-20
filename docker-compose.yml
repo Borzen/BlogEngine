@@ -6,3 +6,8 @@ services:
     build:
       context: .
       dockerfile: BlogEngine/Dockerfile
+  db:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: Today123
